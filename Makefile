@@ -1,4 +1,4 @@
-.PHONY: build install test
+.PHONY: build install test test-dep
 
 pkg-path-base = github.com/codeactual/kubeauth
 
@@ -35,3 +35,6 @@ test:
 	@head -n -1 ./testdata/cover/cover.tmp | sed 's/:[0-9]\+://g' | sort > ./testdata/cover/index.txt
 	@tail -n 1 ./testdata/cover/cover.tmp | sed 's/^[^0-9]\+//' >> ./testdata/cover/index.txt
 	@rm ./testdata/cover/cover.tmp ./testdata/cover/cover.out
+
+test-dep:
+	@go get -v github.com/codeactual/testecho/cmd/testecho
