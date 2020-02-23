@@ -1,4 +1,4 @@
-# kubeauth [![GoDoc](https://godoc.org/github.com/codeactual/kubeauth?status.svg)](https://godoc.org/github.com/codeactual/kubeauth) [![Go Report Card](https://goreportcard.com/badge/github.com/codeactual/kubeauth)](https://goreportcard.com/report/github.com/codeactual/kubeauth) [![Build Status](https://travis-ci.org/codeactual/kubeauth.png)](https://travis-ci.org/codeactual/kubeauth)
+# kubeauth [![GoDoc](https://godoc.org/github.com/codeactual/kubeauth?status.svg)](https://pkg.go.dev/mod/github.com/codeactual/kubeauth) [![Go Report Card](https://goreportcard.com/badge/github.com/codeactual/kubeauth)](https://goreportcard.com/report/github.com/codeactual/kubeauth) [![Build Status](https://travis-ci.org/codeactual/kubeauth.png)](https://travis-ci.org/codeactual/kubeauth)
 
 kubeauth is a program to assist usage of `kubectl` for user/group related operations. It currently provides two commands:
 
