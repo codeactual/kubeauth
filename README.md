@@ -62,6 +62,8 @@ kubeauth ctl auth can-i -v=1 \
 
 [Mozilla Public License Version 2.0](https://www.mozilla.org/en-US/MPL/2.0/) ([About](https://www.mozilla.org/en-US/MPL/), [FAQ](https://www.mozilla.org/en-US/MPL/2.0/FAQ/))
 
+- `add_user` was based on [this bash script gist](https://gist.github.com/innovia/fbba8259042f71db98ea8d4ad19bd708).
+
 ## Contributing
 
 - Please feel free to submit issues, PRs, questions, and feedback.
